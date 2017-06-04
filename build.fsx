@@ -158,19 +158,19 @@ let updateNugetPackages _ =
 
   for projectFile in !! "src/**/*.csproj" do
     printfn "Updating packages for %s" projectFile
-    //let project = Path.GetFileNameWithoutExtension projectFile
-    //let projectDir = Path.GetDirectoryName projectFile
-    //let config = projectDir @@ "packages.config"
+    let project = Path.GetFileNameWithoutExtension projectFile
+    let projectDir = Path.GetDirectoryName projectFile
+    let config = projectDir @@ "packages.config"
 
-    //NugetUpdate
-    //    (fun p ->
-    //            { p with
-    //                ConfigFile = Some (getConfigFile isPreRelease)
-    //                Prerelease = isPreRelease
-    //                ToolPath = nugetExe
-    //                RepositoryPath = "src/Packages"
-    //                Ids = ["Akka.DI.Core"; "Akka.DI.TestKit"]
-    //                }) config
+    NugetUpdate
+        (fun p ->
+                { p with
+                    ConfigFile = Some (getConfigFile isPreRelease)
+                    Prerelease = isPreRelease
+                    ToolPath = nugetExe
+                    RepositoryPath = "src/Packages"
+                    Ids = ["Akka.DI.Core"; "Akka.DI.TestKit"]
+                    }) config
 
 Target "UpdateDependencies" <| fun _ ->
     printfn "Invoking updateNugetPackages"
