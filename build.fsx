@@ -18,8 +18,8 @@ cd __SOURCE_DIRECTORY__
 
 
 let product = "Akka.NET"
-let authors = [ "Kostas Stroggylos" ]
-let copyright = "Copyright © 2017 Kostas Stroggylos"
+let authors = [ "Akka.NET Team / Kostas Stroggylos" ]
+let copyright = "Copyright Â© 2017 Akka.NET Team / Kostas Stroggylos"
 let company = "Akka.NET Team"
 let description = "Akka.NET is a port of the popular Java/Scala framework Akka to .NET"
 let tags = ["akka";"actors";"actor";"model";"Akka";"concurrency"]
