@@ -4,5 +4,5 @@ using System.Reflection;
 [assembly: AssemblyCompanyAttribute("Akka.NET Team")]
 [assembly: AssemblyCopyrightAttribute("Copyright © 2017 Akka.NET Team / Kostas Stroggylos")]
 [assembly: AssemblyTrademarkAttribute("")]
-[assembly: AssemblyVersionAttribute("1.2.0.0")]
-[assembly: AssemblyFileVersionAttribute("1.2.0.0")]
+[assembly: AssemblyVersionAttribute("1.2.1.0")]
+[assembly: AssemblyFileVersionAttribute("1.2.1.0")]
