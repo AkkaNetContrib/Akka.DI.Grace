@@ -32,7 +32,11 @@ namespace Akka.DI.Grace
             if (system == null) throw new ArgumentNullException("system");
             if (container == null) throw new ArgumentNullException("container");
             this.container = container;
+#if NET45
             typeCache = new ConcurrentDictionary<string, Type>(StringComparer.InvariantCultureIgnoreCase);
+#else
+            typeCache = new ConcurrentDictionary<string, Type>(StringComparer.OrdinalIgnoreCase);
+#endif
             this.system = system;
             this.system.AddDependencyResolver(this);
             this.references = new ConditionalWeakTable<ActorBase, IInjectionScope>();
