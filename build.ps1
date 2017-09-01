@@ -33,7 +33,7 @@ $FakeVersion = "4.61.2"
 $DotNetChannel = "preview";
 $DotNetVersion = "1.0.4";
 $DotNetInstallerUri = "https://raw.githubusercontent.com/dotnet/cli/rel/1.0.0/scripts/obtain/dotnet-install.ps1";
-$NugetVersion = "4.1.0";
+$NugetVersion = "4.3.0";
 $NugetUrl = "https://dist.nuget.org/win-x86-commandline/v$NugetVersion/nuget.exe"
 
 # Make sure tools folder exists
