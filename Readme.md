@@ -103,3 +103,6 @@ using (var system = ActorSystem.Create("MySystem"))
     router.Tell(message);
 }
 ```
+
+## Maintainer
+- [modernist](https://github.com/modernist)
