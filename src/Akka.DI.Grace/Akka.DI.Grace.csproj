@@ -11,7 +11,7 @@
     <PackageProjectUrl>https://github.com/modernist/Akka.DI.Grace</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/modernist/Akka.DI.Grace/blob/master/LICENSE</PackageLicenseUrl>
     <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard1.6' ">1.6.1</NetStandardImplicitPackageVersion>
-    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
