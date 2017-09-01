@@ -1,4 +1,4 @@
-# Akka.DI.Grace
+# Akka.DI.Grace [![Build status](https://ci.appveyor.com/api/projects/status/b5853mjdy5mxrovq/branch/dev?svg=true)](https://ci.appveyor.com/project/akkadotnet-contrib/akka-di-grace/branch/dev) [![NuGet Version](http://img.shields.io/nuget/v/Akka.DI.Grace.svg?style=flat)](https://www.nuget.org/packages/Akka.DI.Grace/)
 
 **Actor Producer Extension** backed by the [Grace](https://github.com/ipjohnson/Grace) Dependency Injection Container for the [Akka.NET](https://github.com/akkadotnet/akka.net) framework.
 
